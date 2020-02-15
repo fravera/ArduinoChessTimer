@@ -1,0 +1,14 @@
+#define PIN_LCD_EN  3
+#define PIN_LCD_RS  2
+#define PIN_LCD_D4  4
+#define PIN_LCD_D5  5
+#define PIN_LCD_D6  6
+#define PIN_LCD_D7  7
+#define PIN_BUTTON_UP     10
+#define PIN_BUTTON_DOWN   12
+#define PIN_BUTTON_LEFT    8
+#define PIN_BUTTON_RIGHT  9
+#define PIN_BUTTON_ENTER  13
+#define PIN_PLAYER_SWITCH 11
+
+enum StateMachineStates {INITIALIZING, CONFIGURING, STARTING, RUNNING, STOPPING, PAUSING, RESUMING};
